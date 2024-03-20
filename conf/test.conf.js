@@ -4,7 +4,7 @@ const parallelConfig = {
   // maxInstances: 10,
   commonCapabilities: {
     'bstack:options': {
-      buildName: 'Sample webdriverIO testing',
+      buildName: process.env.BROWSERSTACK_BUILD_NAME,
       source: 'webdriverio:sample-master:v1.2'
     }
   },
