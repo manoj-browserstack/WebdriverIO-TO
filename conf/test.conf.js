@@ -14,8 +14,8 @@ const parallelConfig = {
       { buildIdentifier: '#${BUILD_NUMBER}',
       testObservability: true,
       testObservabilityOptions: {
-        'projectName': 'Sample WDIO project TO',
-        'buildName': 'Sample WDIO build',
+        'projectName': 'WDIO TO Integration Azure Ganesh and Manoj - Team 5',
+        'buildName': 'WDIO TO Integration Azure Build',
         // 'buildTag': 'Any build tag goes here. For e.g. commit message'
     },},
     ],
