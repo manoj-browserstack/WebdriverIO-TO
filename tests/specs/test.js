@@ -11,7 +11,7 @@ describe("Testing with BStackDemo", () => {
     const productOnScreenText = await productOnScreen.getText();
 
     const addToCart = await $('//*[@id="1"]/div[4]');
-    // await addToCart.click();
+    await addToCart.click();
 
     const productInCart = await $('//*[@id="__next"]/div/div/div[2]/div[2]/div[2]/div/div[3]/p[1]');
 
