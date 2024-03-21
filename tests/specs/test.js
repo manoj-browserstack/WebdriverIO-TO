@@ -7,12 +7,11 @@ describe("Testing with BStackDemo", () => {
       "Title didn't match with BrowserStack"
     );
 
-    //const productOnScreen = await $('//*[@id="1"]/p'); In the next removed 'p' to fail the test
-    const productOnScreen = await $('//*[@id="1"]');
+    const productOnScreen = await $('//*[@id="1"]/p');
     const productOnScreenText = await productOnScreen.getText();
 
     const addToCart = await $('//*[@id="1"]/div[4]');
-    await addToCart.click();
+    // await addToCart.click();
 
     const productInCart = await $('//*[@id="__next"]/div/div/div[2]/div[2]/div[2]/div/div[3]/p[1]');
 
